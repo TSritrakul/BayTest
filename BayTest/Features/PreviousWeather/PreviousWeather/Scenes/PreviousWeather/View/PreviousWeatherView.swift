@@ -7,8 +7,10 @@
 
 import SwiftUI
 
-struct PreviousWeatherView: View {
-    var body: some View {
+public struct PreviousWeatherView: View {
+    public init() {}
+    
+    public var body: some View {
         Text("PreviousWeather")
     }
 }

@@ -6,11 +6,27 @@
 //
 
 import SwiftUI
+import CurrentWeather
+import PreviousWeather
 
 struct ContentView: View {
+    @State private var selection = 0
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView(selection: self.$selection, content: {
+            CurrentWeatherView()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Current")
+                }
+                .tag(0)
+            PreviousWeatherView()
+                .tabItem {
+                    Image(systemName: "bookmark.circle.fill")
+                    Text("Previous")
+                }
+                .tag(1)
+        })
     }
 }
 
