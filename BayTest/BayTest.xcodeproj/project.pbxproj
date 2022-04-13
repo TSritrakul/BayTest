@@ -14,6 +14,7 @@
 		0EC3B74328067D08005A6A3E /* BayTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3B74228067D08005A6A3E /* BayTestTests.swift */; };
 		0EC3B74D28067D08005A6A3E /* BayTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3B74C28067D08005A6A3E /* BayTestUITests.swift */; };
 		0EC3B74F28067D08005A6A3E /* BayTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3B74E28067D08005A6A3E /* BayTestUITestsLaunchTests.swift */; };
+		0EC3B78028068232005A6A3E /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC3B77F28068232005A6A3E /* Core.framework */; };
 		64BE26C2BC403390EA5FEE98 /* Pods_BayTest_BayTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E123AA873F2F58C87FA4C76 /* Pods_BayTest_BayTestUITests.framework */; };
 		848B6C1CADEAB90008CDC7CD /* Pods_BayTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348B55CC49AF7BD04EC4BDD0 /* Pods_BayTest.framework */; };
 		E0953960BF292ADBB68098D6 /* Pods_BayTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C58E41785604CA723E451B /* Pods_BayTestTests.framework */; };
@@ -48,6 +49,7 @@
 		0EC3B74828067D08005A6A3E /* BayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC3B74C28067D08005A6A3E /* BayTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayTestUITests.swift; sourceTree = "<group>"; };
 		0EC3B74E28067D08005A6A3E /* BayTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EC3B77F28068232005A6A3E /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CA1F55421CCDAAA6DC64A4 /* Pods-BayTest-BayTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayTest-BayTestUITests.release.xcconfig"; path = "Target Support Files/Pods-BayTest-BayTestUITests/Pods-BayTest-BayTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1A0304E148E4F4CBDB833AD2 /* Pods-BayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayTestTests.release.xcconfig"; path = "Target Support Files/Pods-BayTestTests/Pods-BayTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		1E123AA873F2F58C87FA4C76 /* Pods_BayTest_BayTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BayTest_BayTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848B6C1CADEAB90008CDC7CD /* Pods_BayTest.framework in Frameworks */,
+				0EC3B78028068232005A6A3E /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +150,7 @@
 		79771D3112768E1DC6267AAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EC3B77F28068232005A6A3E /* Core.framework */,
 				348B55CC49AF7BD04EC4BDD0 /* Pods_BayTest.framework */,
 				1E123AA873F2F58C87FA4C76 /* Pods_BayTest_BayTestUITests.framework */,
 				F2C58E41785604CA723E451B /* Pods_BayTestTests.framework */,
@@ -164,7 +168,6 @@
 				98AF1F6472844464D6DF8B8E /* Pods-BayTestTests.debug.xcconfig */,
 				1A0304E148E4F4CBDB833AD2 /* Pods-BayTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
