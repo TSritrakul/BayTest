@@ -1,0 +1,6 @@
+module Pods_Data {
+  umbrella header "Pods-Data-umbrella.h"
+
+  export *
+  module * { export * }
+}

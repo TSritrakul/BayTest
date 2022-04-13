@@ -20,6 +20,11 @@ target 'BayTest' do
 
 end
 
+target 'Data' do
+  xcodeproj ‘Shares/Data/Data.xcodeproj’
+  pod 'Moya/Combine', '~> 15.0'
+end
+
 target 'Core' do
   xcodeproj ‘Core/Core.xcodeproj’
   pod 'Moya/Combine', '~> 15.0'
