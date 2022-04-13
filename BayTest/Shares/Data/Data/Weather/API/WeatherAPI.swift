@@ -8,37 +8,40 @@
 import Foundation
 import Moya
 
-enum WeatherAPI {
+public enum WeatherAPI {
     case getWeatherByCity(request: GetWeatherByCityRequest)
 }
 
 extension WeatherAPI: TargetType {
-    var baseURL: URL {
-        return URL(string: "https://api.openweathermap.org")!
+    public var baseURL: URL {
+        switch self {
+        case .getWeatherByCity(let request):
+            return URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(request.q ?? "")&appid=\(request.appid ?? "")&units=\(request.units.rawValue)")!
+        }
     }
     
-    var path: String {
+    public var path: String {
         switch self {
         case . getWeatherByCity:
-            return "/data/2.5/weather"
+            return ""
         }
     }
     
-    var method: Moya.Method {
+    public var method: Moya.Method {
         switch self {
         case . getWeatherByCity:
-            return .get
+            return .post
         }
     }
     
-    var task: Task {
+    public var task: Task {
         switch self {
-        case . getWeatherByCity(let request):
-            return .requestJSONEncodable(request)
+        case . getWeatherByCity:
+            return .requestPlain
         }
     }
     
-    var headers: [String : String]? {
+    public var headers: [String : String]? {
         return ["Content-type": "application/json"]
     }
 }

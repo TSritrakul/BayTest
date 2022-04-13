@@ -7,12 +7,19 @@
 
 import Foundation
 
-// MARK: - GetWeatherByCityRequest
-struct GetWeatherByCityRequest: Codable {
-    let q, appid: String?
+public enum WeatherUnits: String, Codable {
+    case metric = "metric"
+    case imperial = "imperial"
+}
 
-    init(q: String?, appid: String?) {
+// MARK: - GetWeatherByCityRequest
+public struct GetWeatherByCityRequest: Codable {
+    let q, appid: String?
+    let units: WeatherUnits
+
+    public init(q: String?, appid: String?, units: WeatherUnits = .metric) {
         self.q = q
         self.appid = appid
+        self.units = units
     }
 }
