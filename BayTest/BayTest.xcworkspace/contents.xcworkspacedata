@@ -11,6 +11,9 @@
    <Group
       location = "group:Shares"
       name = "Shares">
+      <FileRef
+         location = "group:Data/Data.xcodeproj">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Core/Core.xcodeproj">
