@@ -8,15 +8,19 @@
 import Foundation
 import Combine
 
-protocol WeatherUseCase {
-    func getWeatherByCity(city: String) -> AnyPublisher<GetWeatherByCityResponse, Error>
+public protocol GetWeatherByCityUseCase {
+    func execute(city: String, unit: WeatherUnits) -> AnyPublisher<GetWeatherByCityResponse, Error>
 }
 
-class WeatherUseCaseImpl: WeatherUseCase {
+public class GetWeatherByCityUseCaseImpl: GetWeatherByCityUseCase {
     
-    let weatherProvider: WeatherProvider = WeatherProviderImpl()
+    private let weatherProvider: WeatherProvider
     
-    func getWeatherByCity(city: String) -> AnyPublisher<GetWeatherByCityResponse, Error> {
-        return self.weatherProvider.getWeatherByCity(city: city)
+    public init(weatherProvider: WeatherProvider = WeatherProviderImpl()) {
+        self.weatherProvider = weatherProvider
+    }
+    
+    public func execute(city: String, unit: WeatherUnits) -> AnyPublisher<GetWeatherByCityResponse, Error> {
+        return self.weatherProvider.getWeatherByCity(city: city, unit: unit)
     }
 }
