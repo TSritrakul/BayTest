@@ -7,11 +7,11 @@
 
 import SwiftUI
 import CurrentWeather
-import PreviousWeather
+import ForecastWeather
 
 struct ContentView: View {
     init() {
-        UITabBar.appearance().backgroundColor = UIColor(red: 108/255, green: 96/255, blue: 94/255, alpha: 50)
+//        UITabBar.appearance().backgroundColor = UIColor(red: 108/255, green: 96/255, blue: 94/255, alpha: 50)
     }
     
     @State private var selection = 0
@@ -24,14 +24,14 @@ struct ContentView: View {
                     Text("Current")
                 }
                 .tag(0)
-                .background(Color(red: 248/255, green: 213/255, blue: 72/255))
-            PreviousWeatherView(viewModel: PreviousWeatherViewModel())
+//                .background(Color(red: 248/255, green: 213/255, blue: 72/255))
+            ForecastWeatherView(viewModel: ForecastWeatherViewModel())
                 .tabItem {
                     Image(systemName: "bookmark.circle.fill")
                     Text("Previous")
                 }
                 .tag(1)
-                .background(Color(red: 248/255, green: 213/255, blue: 72/255))
+//                .background(Color(red: 248/255, green: 213/255, blue: 72/255))
         })
         .accentColor(Color(red: 248/255, green: 213/255, blue: 72/255))
     }

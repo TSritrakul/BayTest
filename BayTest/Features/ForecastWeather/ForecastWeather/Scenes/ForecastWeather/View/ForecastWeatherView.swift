@@ -20,25 +20,47 @@ public struct ForecastWeatherView: View {
             ZStack {
                 Color(red: 248/255, green: 213/255, blue: 72/255).edgesIgnoringSafeArea(.all)
                 List {
-                    ForEach(self.viewModel.list ?? [], id: \.dtTxt) { list in
-                        HStack {
-                            if let icon = self.viewModel.getIconURL(data: list) {
-                                Section(header: Text("5-Day FORECAST")) {
-                                    KFImage.url(icon)
-                                        .resizable()
-                                        .loadDiskFileSynchronously()
-                                        .cacheMemoryOnly()
-                                        .fade(duration: 0.25)
-                                        .frame(width: 50, height: 50, alignment: .center)
+                    ForEach(self.viewModel.list ?? [], id: \.date) { list in
+                        if let date = list.date {
+                            Section(header: Text(date)) {
+                                ForEach(list.list ?? [], id: \.time) { element in
+                                    HStack {
+                                        Spacer()
+//                                            .frame(width: 10)
+                                        Text(element.time ?? "")
+                                        Spacer()
+//                                            .frame(width: 10)
+                                        if let icon = self.viewModel.getIconURL(icon: element.icon) {
+                                            KFImage.url(icon)
+                                                .resizable()
+                                                .loadDiskFileSynchronously()
+                                                .cacheMemoryOnly()
+                                                .fade(duration: 0.25)
+                                                .frame(width: 50, height: 50, alignment: .center)
+                                        }
+                                        VStack {
+                                            Text("Temperature")
+                                                .font(.headline)
+                                            Text("\(String(format: "%.2f", element.temp ?? 0.0)) °C")
+                                                .font(.body)
+                                        }
+                                        Spacer()
+                                        VStack {
+                                            Text("Humidity")
+                                                .font(.headline)
+                                            Text("\(element.humidity ?? 0)")
+                                                .font(.body)
+                                        }
+                                        Spacer()
+                                    }
                                 }
                             }
                         }
                     }
-                    .navigationBarTitle("")
-                    .navigationBarHidden(true)
                 }
                 .background(Color(red: 248/255, green: 213/255, blue: 72/255).edgesIgnoringSafeArea(.all))
             }
+            .navigationBarTitle("Weather Forecast")
         }
     }
 }

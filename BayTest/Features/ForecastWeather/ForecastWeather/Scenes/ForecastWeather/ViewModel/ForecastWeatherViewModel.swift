@@ -14,7 +14,7 @@ public class ForecastWeatherViewModel: ObservableObject {
         self.getWeatherForecastByCity()
     }
     
-    @Published var list: [GetWeatherForecastByCityList]? = []
+    @Published var list: WeatherForecastByCityModel? = []
     
     private let getWeatherForecastByCityUseCase: GetWeatherForecastByCityUseCase = GetWeatherForecastByCityUseCaseImpl()
     private var anyCancellable: Set<AnyCancellable> = Set<AnyCancellable>()
@@ -25,13 +25,44 @@ public class ForecastWeatherViewModel: ObservableObject {
                 
             } receiveValue: { [weak self] response in
                 guard let self = self else { return }
-                print(response)
-                self.list = response.list
+                self.list = self.wrapData(response: response.list ?? [])
             }
             .store(in: &self.anyCancellable)
     }
     
-    func getIconURL(data: GetWeatherForecastByCityList) -> URL? {
-        return URL(string: "https://openweathermap.org/img/wn/\(data.weather?.first?.icon ?? "")@2x.png")
+    func getIconURL(icon: String?) -> URL? {
+        return URL(string: "https://openweathermap.org/img/wn/\(icon ?? "")@2x.png")
+    }
+    
+    func wrapData(response: [GetWeatherForecastByCityList]) -> WeatherForecastByCityModel {
+        var list: WeatherForecastByCityModel = []
+        
+        let dateReasponse = DateFormatter()
+        dateReasponse.dateFormat = "yyyy-mm-dd HH:mm:ss"
+        
+        let dateList = DateFormatter()
+        dateList.dateFormat = "E  d MMM yyyy"
+        
+        let time = DateFormatter()
+        time.dateFormat = "HH:mm"
+        
+        for element in response {
+            
+            if let group = list.first(where: { item in
+                
+                if dateList.string(from: dateList.date(from: item.date ?? "") ?? Date()) == dateList.string(from: dateReasponse.date(from: element.dtTxt ?? "") ?? Date()) {
+                    return true
+                } else {
+                    return false
+                }
+            }) {
+                if let index = list.firstIndex(of: group) {
+                    list[index].list?.append(.init(temp: element.main?.temp, humidity: element.main?.humidity, icon: element.weather?.first?.icon, time: time.string(from: dateReasponse.date(from: element.dtTxt ?? "") ?? Date())))
+                }
+            } else {
+                list.append(.init(list: [.init(temp: element.main?.temp, humidity: element.main?.humidity, icon: element.weather?.first?.icon, time: time.string(from: dateReasponse.date(from: element.dtTxt ?? "") ?? Date()))], date: dateList.string(from: dateReasponse.date(from: element.dtTxt ?? "") ?? Date())))
+            }
+        }
+        return list
     }
 }
