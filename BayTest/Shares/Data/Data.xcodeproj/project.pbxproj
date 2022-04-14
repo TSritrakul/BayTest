@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1F38D02807F44E00604980 /* GetWeatherForecastByCityRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F38CF2807F44E00604980 /* GetWeatherForecastByCityRequest.swift */; };
+		0E1F38D32807F7FB00604980 /* GetWeatherForcastByCityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F38D22807F7FB00604980 /* GetWeatherForcastByCityResponse.swift */; };
+		0E1F38D52807FABE00604980 /* GetWeatherForecastByCityUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F38D42807FABE00604980 /* GetWeatherForecastByCityUseCase.swift */; };
 		0E3ECAF428068B130070FA90 /* Data.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0E3ECAF328068B130070FA90 /* Data.docc */; };
 		0E3ECAFA28068B130070FA90 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3ECAEF28068B130070FA90 /* Data.framework */; };
 		0E3ECAFF28068B130070FA90 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3ECAFE28068B130070FA90 /* DataTests.swift */; };
@@ -30,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1F38CF2807F44E00604980 /* GetWeatherForecastByCityRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeatherForecastByCityRequest.swift; sourceTree = "<group>"; };
+		0E1F38D22807F7FB00604980 /* GetWeatherForcastByCityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeatherForcastByCityResponse.swift; sourceTree = "<group>"; };
+		0E1F38D42807FABE00604980 /* GetWeatherForecastByCityUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeatherForecastByCityUseCase.swift; sourceTree = "<group>"; };
 		0E3ECAEF28068B130070FA90 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3ECAF228068B130070FA90 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		0E3ECAF328068B130070FA90 /* Data.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Data.docc; sourceTree = "<group>"; };
@@ -65,6 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1F38CD2807F40300604980 /* GetWeatherForecastByCity */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F38D12807F7CD00604980 /* Response */,
+				0E1F38CE2807F41D00604980 /* Request */,
+			);
+			path = GetWeatherForecastByCity;
+			sourceTree = "<group>";
+		};
+		0E1F38CE2807F41D00604980 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F38CF2807F44E00604980 /* GetWeatherForecastByCityRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		0E1F38D12807F7CD00604980 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F38D22807F7FB00604980 /* GetWeatherForcastByCityResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		0E3ECAE528068B130070FA90 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +156,7 @@
 		0E3ECB662806AFD40070FA90 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0E1F38CD2807F40300604980 /* GetWeatherForecastByCity */,
 				0E3ECB6D2806BD5E0070FA90 /* GetWeatherByCity */,
 			);
 			path = Models;
@@ -134,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				0E3ECB742806D3450070FA90 /* GetWeatherByCityUseCase.swift */,
+				0E1F38D42807FABE00604980 /* GetWeatherForecastByCityUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -329,7 +362,10 @@
 				0E3ECB702806BD850070FA90 /* GetWeatherByCityRequest.swift in Sources */,
 				0E3ECB732806CEC30070FA90 /* GetWeatherByCityResponse.swift in Sources */,
 				0E3ECAF428068B130070FA90 /* Data.docc in Sources */,
+				0E1F38D32807F7FB00604980 /* GetWeatherForcastByCityResponse.swift in Sources */,
+				0E1F38D02807F44E00604980 /* GetWeatherForecastByCityRequest.swift in Sources */,
 				0E3ECB692806B11C0070FA90 /* WeatherProvider.swift in Sources */,
+				0E1F38D52807FABE00604980 /* GetWeatherForecastByCityUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

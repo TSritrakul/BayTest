@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 public protocol GetWeatherByCityUseCase {
-    func execute(city: String, unit: WeatherUnits) -> AnyPublisher<GetWeatherByCityResponse, Error>
+    func execute(city: String, unit: GetWeatherByCityRequest.WeatherUnits) -> AnyPublisher<GetWeatherByCityResponse, Error>
 }
 
 public class GetWeatherByCityUseCaseImpl: GetWeatherByCityUseCase {
@@ -20,7 +20,7 @@ public class GetWeatherByCityUseCaseImpl: GetWeatherByCityUseCase {
         self.weatherProvider = weatherProvider
     }
     
-    public func execute(city: String, unit: WeatherUnits) -> AnyPublisher<GetWeatherByCityResponse, Error> {
+    public func execute(city: String, unit: GetWeatherByCityRequest.WeatherUnits) -> AnyPublisher<GetWeatherByCityResponse, Error> {
         return self.weatherProvider.getWeatherByCity(city: city, unit: unit)
     }
 }

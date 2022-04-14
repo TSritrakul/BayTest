@@ -25,12 +25,13 @@ struct ContentView: View {
                 }
                 .tag(0)
                 .background(Color(red: 248/255, green: 213/255, blue: 72/255))
-            PreviousWeatherView()
+            PreviousWeatherView(viewModel: PreviousWeatherViewModel())
                 .tabItem {
                     Image(systemName: "bookmark.circle.fill")
                     Text("Previous")
                 }
                 .tag(1)
+                .background(Color(red: 248/255, green: 213/255, blue: 72/255))
         })
         .accentColor(Color(red: 248/255, green: 213/255, blue: 72/255))
     }

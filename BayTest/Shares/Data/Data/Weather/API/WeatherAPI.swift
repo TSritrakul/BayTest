@@ -10,6 +10,7 @@ import Moya
 
 public enum WeatherAPI {
     case getWeatherByCity(request: GetWeatherByCityRequest)
+    case getWeatherForecastBuyCity(request: GetWeatherForecastByCityRequest)
 }
 
 extension WeatherAPI: TargetType {
@@ -17,6 +18,8 @@ extension WeatherAPI: TargetType {
         switch self {
         case .getWeatherByCity(let request):
             return URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(request.q ?? "")&appid=\(request.appid ?? "")&units=\(request.units.rawValue)")!
+        case .getWeatherForecastBuyCity(let request):
+            return URL(string: "https://api.openweathermap.org/data/2.5/forecast?q=\(request.q ?? "")&appid=\(request.appid ?? "")&units=\(request.units.rawValue)")!
         }
     }
     
@@ -24,19 +27,21 @@ extension WeatherAPI: TargetType {
         switch self {
         case . getWeatherByCity:
             return ""
+        case .getWeatherForecastBuyCity:
+            return ""
         }
     }
     
     public var method: Moya.Method {
         switch self {
-        case . getWeatherByCity:
+        case . getWeatherByCity, .getWeatherForecastBuyCity:
             return .post
         }
     }
     
     public var task: Task {
         switch self {
-        case . getWeatherByCity:
+        case . getWeatherByCity, .getWeatherForecastBuyCity:
             return .requestPlain
         }
     }
