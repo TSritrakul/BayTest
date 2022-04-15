@@ -28,7 +28,7 @@ public class CurrentWeatherViewModel: ObservableObject {
     
     func getWeatherByCity() {
         if !self.cityName.isEmpty {
-            self.getWeatherByCityUseCase.execute(city: self.cityName, unit: self.units).sink { error in
+            self.getWeatherByCityUseCase.execute(city: self.verifyCityName(cityName: self.cityName), unit: self.units).sink { error in
 
             } receiveValue: {  [weak self] response in
                 print(response)
@@ -62,7 +62,7 @@ public class CurrentWeatherViewModel: ObservableObject {
     }
     
     func saveWeatherSetting() {
-        WeatherManager.shared.saveWeatherSetting(setting: .init(weatherUnits: self.units == .metric ? .metric : .imperial, lastCity: self.cityName))
+        WeatherManager.shared.saveWeatherSetting(setting: .init(weatherUnits: self.units == .metric ? .metric : .imperial, lastCity: self.verifyCityName(cityName: self.cityName)))
     }
     
     func subscribeWeatherSetting() {
@@ -74,5 +74,13 @@ public class CurrentWeatherViewModel: ObservableObject {
             self.getWeatherByCity()
         }
         .store(in: &self.anyCancellable)
+    }
+    
+    func verifyCityName(cityName: String) -> String {
+        var wordVerified: String = cityName
+
+        let vowels: Set<Character> = [" ", "~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "=", "{", "}", "[", "]", "|", "\\", "/", ":", ";", "\"", "'", "<", ">", ",", ".", "?"]
+        wordVerified.removeAll(where: { vowels.contains($0) })
+        return wordVerified
     }
 }
