@@ -1,14 +1,14 @@
 //
-//  GetWeatherByCityRequest.swift
+//  GetWeatherForecastByCityRequest.swift
 //  Data
 //
-//  Created by Thatchaphon Sritrakul on 13/4/2565 BE.
+//  Created by Thatchaphon Sritrakul on 14/4/2565 BE.
 //
 
 import Foundation
 
 // MARK: - GetWeatherByCityRequest
-public struct GetWeatherByCityRequest: Codable {
+public struct GetWeatherForecastByCityRequest: Codable {
     let q, appid: String?
     let units: WeatherUnits
 

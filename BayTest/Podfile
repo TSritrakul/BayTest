@@ -20,8 +20,8 @@ target 'BayTest' do
 
 end
 
-target 'CurrentWeather' do
-  xcodeproj ‘Features/CurrentWeather/CurrentWeather.xcodeproj’
+target 'Weather' do
+  xcodeproj ‘Features/Weather/Weather.xcodeproj’
   pod 'Moya/Combine', '~> 15.0'
 end
 

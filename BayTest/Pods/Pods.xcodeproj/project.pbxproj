@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		009B8BA8D6AB9CB1656EE57EDBD82D6D /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13CF7740B5002366684DA41A02139AC /* RequestInterceptor.swift */; };
 		03613514FDDED652A460347EBAF21B9B /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD322813627893DF0771025255B603 /* ParameterEncoding.swift */; };
-		036ED1C0F1F669AA84EF4D25C45312D1 /* Pods-BayTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 721E8BCCAFC296AFEBA0DFC7E4984BA2 /* Pods-BayTestTests-dummy.m */; };
-		05E2DA2309E3B8C3128F79D6BF5784F3 /* Pods-BayTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81423B35B1D889ACC6B695A555B1DEBD /* Pods-BayTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036ED1C0F1F669AA84EF4D25C45312D1 /* Pods-BayTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E107B340516C73445AA0AE91EABA15F /* Pods-BayTestTests-dummy.m */; };
+		05E2DA2309E3B8C3128F79D6BF5784F3 /* Pods-BayTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2632CD2FCAB6097A046E7284F6A8DF /* Pods-BayTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07CA07A3738EAA6F3301C0D84CF69CF8 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76448D9D950FE489A65842AE8E6ED13 /* ParameterEncoder.swift */; };
 		09017D1EFFD952E8E3EC5F0B04B76D1A /* RequestTypeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223349772594F0907D257D778A500C5 /* RequestTypeWrapper.swift */; };
 		09B63558699DB3980AA4C877F760337C /* MoyaProvider+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4D410C838F7A4B90114DD2A6E7B71 /* MoyaProvider+Defaults.swift */; };
@@ -20,7 +20,7 @@
 		0DBA9C51C688A0DC41B75FE583ACBA46 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B591609FF90F28C0DD36FEB357495C /* AFError.swift */; };
 		0E83FDB2A8361E0342080625F9421DC8 /* URL+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB6FD65EE342C18D8991BB4C58E187 /* URL+Moya.swift */; };
 		0ECC07901029F85A31E8A662FB2CEBD1 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFFED2096B107DAD815A23A0E41BCFB /* Cancellable.swift */; };
-		0EE4E3F9706009F19C27CF35679356FD /* Pods-BayTest-BayTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B80FF849166051A26D1712B88B562CD4 /* Pods-BayTest-BayTestUITests-dummy.m */; };
+		0EE4E3F9706009F19C27CF35679356FD /* Pods-BayTest-BayTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EFA27567604514D4AECF3D5D04F969 /* Pods-BayTest-BayTestUITests-dummy.m */; };
 		12B873FDA31E1E011EFE6AD338AB7C50 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD322813627893DF0771025255B603 /* ParameterEncoding.swift */; };
 		131D31CFD74B90D6EA8499387370D350 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8676CB148DB3CBA49126964B26CA3 /* RedirectHandler.swift */; };
 		14430015AD3030551EA0F83203790015 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CA8DB11E5E0B4876F00E9EFA4635D9 /* ResponseSerialization.swift */; };
@@ -32,6 +32,7 @@
 		1D600F50476C0D480C68AD5ADED71776 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E65C54F96C74C9D6AC885EE9F2F9F7 /* TargetType.swift */; };
 		1E3CD7591DA31B09F50276C3CCAB7E35 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E37C0704480B14C7199B9AA057951F /* Atomic.swift */; };
 		1F587C76810001C5300BE15CE532267B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55E237900531B2E00A522F1D6C6F9DA /* Request.swift */; };
+		1F73C91BD3CD79B9C90C8188076E4754 /* Pods-Weather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F63C1FC16866249BB88E08A249AEC25B /* Pods-Weather-dummy.m */; };
 		2043B6FBC4732B94A1B2FC1B2D1DCF39 /* MultiTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D922BD76098A80BE73B43C71745B9 /* MultiTarget.swift */; };
 		2145F2692FA6B84D0B158831C52E9877 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA789AF29814AE9B89830ED9BB36C6B /* Task.swift */; };
 		2480F78AAE1977F044AA0C97E930F84F /* MultiTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D922BD76098A80BE73B43C71745B9 /* MultiTarget.swift */; };
@@ -55,10 +56,9 @@
 		48DC4F632D7FDFF7007C25C293729955 /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06ABED80893B4F5376A350B6DAC866F /* MultipartUpload.swift */; };
 		49A0E8FCFD2F35C4375AFE871351AE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384B97D260568603E21BCD9F1C45372 /* Foundation.framework */; };
 		4A8B83749E3A9F137A1EE6AF8EC5CC4F /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C2D8709EF3C34CE5208D4F2E6AD004 /* Combine.framework */; };
-		4BAEC43C7FE645A6EA9D275F873EBEED /* Pods-Data-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A85FDACCEEEB5B1DE3A10562B451994 /* Pods-Data-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BAEC43C7FE645A6EA9D275F873EBEED /* Pods-Data-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA1201330335B1880EB2308869D474A /* Pods-Data-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4E4E2D0151AB8327BA7C45B3BEFACBB1 /* MoyaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933CEEB4A9CC81DBE2C0484DBA50BF4F /* MoyaError.swift */; };
 		504ED0085F9CE15AE13483D440E7F1A6 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4EAE94367520BD5248BCD77CD66C8 /* MoyaProvider.swift */; };
-		55C0B8D417027986DCA8664347255B13 /* Pods-CurrentWeather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE90B1FEDA1769E784A00001CDA3079F /* Pods-CurrentWeather-dummy.m */; };
 		565A40A42D9615040915D1ADE54D3238 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60D7ECE52A8ABFB7D6659CBADCE3650 /* Combine.swift */; };
 		575A22A5117D44920C4A61A695FC921E /* URLRequest+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F563F6CBB8BE8BD858ACB01B6E1B8F3B /* URLRequest+Encoding.swift */; };
 		5C344681CF9EC4A00A39AD4451C0C89C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B78DEC8925F9A0788AB0501BEF143 /* URLEncodedFormEncoder.swift */; };
@@ -69,7 +69,7 @@
 		68BA492A6002B3DFCA3527FF58C81D87 /* CredentialsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FEDF9BA7AA4F0566F8C6C6D2FDA4EE /* CredentialsPlugin.swift */; };
 		695483A11CDF9DD3A88CED58DB47247E /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912BCCBED6D9E235B6FEF622E3D5C1D5 /* MultipartFormData.swift */; };
 		6CE8F26DC90E21AE2AE988FA15787B41 /* Moya-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9882C583574532FB0E936BADB436E2D /* Moya-library-dummy.m */; };
-		6D05EEF788B67021F7C811C880E860DC /* Pods-Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7051B28F9ADC3B3531DF47FBA0A59EB9 /* Pods-Core-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D05EEF788B67021F7C811C880E860DC /* Pods-Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 178E6B70B50ABE352D45DA4473F25268 /* Pods-Core-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6F039B77730C25BA9660B74ECF4C4462 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70375330C8D4D4B7C53A4631DAC6AAEF /* Result+Alamofire.swift */; };
 		6F133DE18C9A50D388F2DAD823DBBB10 /* MoyaPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657D2C0547B16458A5A262A9506EA5A /* MoyaPublisher.swift */; };
 		7121D2634C3E8F0F5BF2088909361803 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D593990539DDC60780B041DAF375F /* AnyEncodable.swift */; };
@@ -99,17 +99,18 @@
 		9A55E20C8B741E2EECE8FB19AB021651 /* Alamofire-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC6350DE29A31686653A68E89D9E86E /* Alamofire-library-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9A86BB650E62FD67437F92ABD63EA887 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59C660C5497F97E6986F2834CD66D1 /* StringEncoding+Alamofire.swift */; };
 		9DDB31BFC6ACE7B14CF17FB1CCB74718 /* RequestTypeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223349772594F0907D257D778A500C5 /* RequestTypeWrapper.swift */; };
-		A1B142012498036CBEFA6EEAD78F01A1 /* Pods-Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A684C68335DBE80E6B6205E8788D8F /* Pods-Core-dummy.m */; };
+		A1B142012498036CBEFA6EEAD78F01A1 /* Pods-Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDE53F759E231BCD6FF78A9C54ACD3 /* Pods-Core-dummy.m */; };
 		A3F5D8A5E3B4D0195C75623F689E6B6D /* AccessTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352F6E28415E2F742CC2BE814F4AC02F /* AccessTokenPlugin.swift */; };
 		A5B603EA44CBD10C99A0750C4A60BDAB /* Moya-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25A4860E41CACE896056952FBE7F83 /* Moya-framework-dummy.m */; };
 		A5E9D21450FCAF00ECED1CDC53748536 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FA2B11D97581DEADB844875B1D9D1 /* HTTPHeaders.swift */; };
 		A67B536E29B39A7D7699023BA7EA1BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384B97D260568603E21BCD9F1C45372 /* Foundation.framework */; };
 		A8B27B50A9C64E2B503BC7AC76CADCAF /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B78DEC8925F9A0788AB0501BEF143 /* URLEncodedFormEncoder.swift */; };
+		A8BC841D0C19013422708E9DF00D5946 /* Pods-Weather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F045A69330EA0194AA1652B32F10150D /* Pods-Weather-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ACB0A641A92A6B2FB9C8736E14BDAB13 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A11AAAC0220E34A05AA88798C2987C /* EventMonitor.swift */; };
 		ACDCC73C9F3AC1A5152E55A420A869F6 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388C0EFB1A124BB3F4D99AF28AB1A4F3 /* Response.swift */; };
 		AFC8A28409776C186E70D69C1382372C /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01C341A62630405B9AA94960CFFEFE /* URLSessionConfiguration+Alamofire.swift */; };
 		B008DE560889F33DE17EFED73529C04D /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EBD1090E6381EAB7FA501438C7C77C /* DispatchQueue+Alamofire.swift */; };
-		B25C328A999C2530091FCCD074044444 /* Pods-Data-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 095CA7C07A65E840FB63F4981CEF1A7F /* Pods-Data-dummy.m */; };
+		B25C328A999C2530091FCCD074044444 /* Pods-Data-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FECB3D3D7171B72D7646289CB1A9BB3 /* Pods-Data-dummy.m */; };
 		B3C50893368AD8ACD3E2CD5EBADE1FA3 /* NetworkActivityPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB9485997437049EB132C66320679F /* NetworkActivityPlugin.swift */; };
 		B6EBFCAB0737F090D88A7FCEE6768BDA /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4EAE94367520BD5248BCD77CD66C8 /* MoyaProvider.swift */; };
 		BB1B8DF6C34B5244C69347DBD78B3544 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E37C0704480B14C7199B9AA057951F /* Atomic.swift */; };
@@ -117,7 +118,7 @@
 		BCCF593388D78A0EE5391B4A927739F3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE84EB67EF2A6B97EB0B340040E04AE9 /* MultipartFormData.swift */; };
 		BDA47629714658DC0152BA4CC09B4F25 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E65C54F96C74C9D6AC885EE9F2F9F7 /* TargetType.swift */; };
 		BE225D77E64EE10EFCB6FDA2502896B0 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C57277E22C71459514A31A18A9BD48 /* Session.swift */; };
-		BF65BDD0CC9765CE391927924C905EEE /* Pods-BayTest-BayTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7C42A5AE0F0C76687671F8507B5788 /* Pods-BayTest-BayTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF65BDD0CC9765CE391927924C905EEE /* Pods-BayTest-BayTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA49C794C770A4C97B6E83545606A091 /* Pods-BayTest-BayTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C07F1D87C54DF0CAC2C3C3E6B0B387C6 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A11AAAC0220E34A05AA88798C2987C /* EventMonitor.swift */; };
 		C1465E4DF30EE29AE501C846B6E1696B /* NetworkLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5E880561B4B722F2183A6E46CC51BD /* NetworkLoggerPlugin.swift */; };
 		C57690C9B601944C343A9BB4C6C3A932 /* MoyaProvider+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4D410C838F7A4B90114DD2A6E7B71 /* MoyaProvider+Defaults.swift */; };
@@ -125,7 +126,6 @@
 		C7E604646676788D2C0875CC397BAC7F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED0708582CAC1534ADBB9F1F392745 /* Alamofire.swift */; };
 		C94CECD51C42EE8B9FD458BD9ECA110C /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60E5469371F32409434DB7D54820393 /* AuthenticationInterceptor.swift */; };
 		C9FBF1041A8D7DB9E60DB92FC2DEB884 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70375330C8D4D4B7C53A4631DAC6AAEF /* Result+Alamofire.swift */; };
-		CE3608AFBE2D6C41283AC7CDF5918909 /* Pods-CurrentWeather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D20E58EB928F6A23FE2A65FE159CCB /* Pods-CurrentWeather-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CE829E3239A34DDC87AAACF26606E796 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA404FB4B98AB3FCD746D9384B251C7 /* ValidationType.swift */; };
 		CEC072E682A339D2063E996AE6E74CF8 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3062F3C8AFABD46D52802B8C1672A5 /* RetryPolicy.swift */; };
 		D0A0FDFCF81DA14A825E69639DE9AAFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECF9D84DC46F3E6F653E86B07F6A90B /* CFNetwork.framework */; };
@@ -144,7 +144,7 @@
 		E67C672498C9AB86D900B9463FBAFF6B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718CC5C2B0265A89C7F3D0F5614BC8FF /* RequestTaskMap.swift */; };
 		E70D4FE183BD31C2DC44D4B1EF019D89 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFE014055C73D3B019AAC424EB7DC9 /* NetworkReachabilityManager.swift */; };
 		E71156A73BC36CCECFC4ED7FD1AA7C50 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EBD1090E6381EAB7FA501438C7C77C /* DispatchQueue+Alamofire.swift */; };
-		E724C0A61C4A15D5C67A57F22D1D9697 /* Pods-BayTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4044F73372C4B9DE5A78EA7C29CC4F59 /* Pods-BayTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E724C0A61C4A15D5C67A57F22D1D9697 /* Pods-BayTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 887CBCCF6B64DB56DBA561804499DD71 /* Pods-BayTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E80239E46469E0DD9CDF1585666CCDA2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA589EB5C49011FAD9964A37E323CA /* Image.swift */; };
 		E9C0A511E9AF27C3B9AC6A18B9B61013 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFFED2096B107DAD815A23A0E41BCFB /* Cancellable.swift */; };
 		EAC1AE33C9C1A97B851A2B1AE1F6D38F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912BCCBED6D9E235B6FEF622E3D5C1D5 /* MultipartFormData.swift */; };
@@ -154,7 +154,7 @@
 		F20430BF90EC54A43A4EDE0D34AC481B /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B591609FF90F28C0DD36FEB357495C /* AFError.swift */; };
 		F4382B701F2E72E54658C7B83CF79CB5 /* AnyPublisher+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2C4B02AD342C33006E57A1372ED56 /* AnyPublisher+Response.swift */; };
 		F4459A76FEBFCD36006E18E3A9EA2B42 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3062F3C8AFABD46D52802B8C1672A5 /* RetryPolicy.swift */; };
-		F4661FA87B6E1C281AB3E8823108CF75 /* Pods-BayTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C386DCB60EE1AE4C0001051DAD0EBFA /* Pods-BayTest-dummy.m */; };
+		F4661FA87B6E1C281AB3E8823108CF75 /* Pods-BayTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E824C1D7518B31C76AD60C736F8E973 /* Pods-BayTest-dummy.m */; };
 		F54E664B6BBE7778E907CC80C7D54A97 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FA2B11D97581DEADB844875B1D9D1 /* HTTPHeaders.swift */; };
 		F81D1328B39112AF43D3344C6D56C584 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7236BEBBE14EA6C74F94CAAFBA7302F9 /* CachedResponseHandler.swift */; };
 		FD078BFB0095D6212BB6BE8F94181CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4384B97D260568603E21BCD9F1C45372 /* Foundation.framework */; };
@@ -170,7 +170,7 @@
 			remoteGlobalIDString = 3949679AB5CF3F2C77C15A0E67E8AF64;
 			remoteInfo = "Alamofire-framework";
 		};
-		4961FC388A8A9E2BFE704F1ECCBF6187 /* PBXContainerItemProxy */ = {
+		4E128FA9585EAEC3FC9CD977882CBF6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -198,13 +198,6 @@
 			remoteGlobalIDString = 3F66A14997A3B09C1C6CC3AFD763A745;
 			remoteInfo = "Moya-framework";
 		};
-		B4D7F688FD9E1AD13069DCF540555493 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47497BE8AA365DA8AAEFDEEEC086ABF6;
-			remoteInfo = "Alamofire-library";
-		};
 		BC32B65330F07881B209328BF9F5BA72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -225,6 +218,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3949679AB5CF3F2C77C15A0E67E8AF64;
 			remoteInfo = "Alamofire-framework";
+		};
+		CA85A124D50EF5C87EB93A95EB2E2118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47497BE8AA365DA8AAEFDEEEC086ABF6;
+			remoteInfo = "Alamofire-library";
 		};
 		CE4667BFE1FA8466D42DC64A49DA3B2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -257,36 +257,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F4FC94548DFB8DC267F591319640CF /* Pods-BayTest-BayTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayTest-BayTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0177118429C86085BD0D8EA08410E2D2 /* Pods-Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Data.release.xcconfig"; sourceTree = "<group>"; };
 		024A83D176979436C335412057B48BC9 /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Sources/Moya/Plugin.swift; sourceTree = "<group>"; };
-		05810904C893E5F79B606866CBF12BF3 /* Pods-Core-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Core-acknowledgements.plist"; sourceTree = "<group>"; };
 		0657D2C0547B16458A5A262A9506EA5A /* MoyaPublisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaPublisher.swift; path = Sources/CombineMoya/MoyaPublisher.swift; sourceTree = "<group>"; };
 		06B591609FF90F28C0DD36FEB357495C /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		07C391578C789A835AE7A5D2BB7E1D41 /* Pods-BayTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BayTest"; path = Pods_BayTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		095CA7C07A65E840FB63F4981CEF1A7F /* Pods-Data-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Data-dummy.m"; sourceTree = "<group>"; };
-		0A85FDACCEEEB5B1DE3A10562B451994 /* Pods-Data-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Data-umbrella.h"; sourceTree = "<group>"; };
-		0CF8C03C24D6F63A597C4565CBA7E460 /* Pods-Core-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Core-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A0875F85F20C16D711B335454C26CFF /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
 		0DA404FB4B98AB3FCD746D9384B251C7 /* ValidationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationType.swift; path = Sources/Moya/ValidationType.swift; sourceTree = "<group>"; };
-		11AA91FA6E4D66E808DF9C7C43E9A3AF /* Pods-BayTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTestTests-Info.plist"; sourceTree = "<group>"; };
 		1304F3E1E229C0151CDE9EB32510F42B /* Moya-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Moya-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		140C81BACB80ABDE0F22CEE25431AB73 /* Pods-Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Core.modulemap"; sourceTree = "<group>"; };
+		16BE31806EA1373B1E6AFFAE7A599B1D /* Pods-BayTest-BayTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTest-BayTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		178E6B70B50ABE352D45DA4473F25268 /* Pods-Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Core-umbrella.h"; sourceTree = "<group>"; };
+		18D8865E6ADA9D52CD71D980E5359B5D /* Pods-BayTest-BayTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTest-BayTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A0C0E1DDF2E0C949B25B2FBDB1F408C /* Alamofire-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-framework-dummy.m"; sourceTree = "<group>"; };
 		1AA789AF29814AE9B89830ED9BB36C6B /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Moya/Task.swift; sourceTree = "<group>"; };
-		1B488B5066B5C00D7118C4F3F2814D97 /* Pods-BayTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BayTestTests.modulemap"; sourceTree = "<group>"; };
 		1B76C37BCC00DA2B17B1DC30292B41EB /* Moya-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Moya-library-umbrella.h"; path = "../Moya-library/Moya-library-umbrella.h"; sourceTree = "<group>"; };
-		1D6C4638F5CBF3337631634A7C684753 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
 		1DB797F5713FBFAF0B83FAF3A18764C8 /* Moya-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Moya-library.modulemap"; path = "../Moya-library/Moya-library.modulemap"; sourceTree = "<group>"; };
+		1DDCD1ED535D34E855E6495C056E8316 /* Pods-BayTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BayTestTests.modulemap"; sourceTree = "<group>"; };
 		1E5D922BD76098A80BE73B43C71745B9 /* MultiTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTarget.swift; path = Sources/Moya/MultiTarget.swift; sourceTree = "<group>"; };
-		20A684C68335DBE80E6B6205E8788D8F /* Pods-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Core-dummy.m"; sourceTree = "<group>"; };
+		1F2632CD2FCAB6097A046E7284F6A8DF /* Pods-BayTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayTestTests-umbrella.h"; sourceTree = "<group>"; };
 		217BE49565D69F0AC9E49B5B5EA50592 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		233738920F20AD39DCA41A2CB9CA179F /* Moya-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Moya-framework.release.xcconfig"; sourceTree = "<group>"; };
+		2418F85B07D37855B858D6B932D1875D /* Pods-BayTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayTest-frameworks.sh"; sourceTree = "<group>"; };
 		2567A6CB99738EADA0D5604C9A8C78CC /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		2658564EAAD26FD51E51272A6B06BC45 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		26B1C57690A8B3585120CFC79E3E04F9 /* Pods-BayTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTest-Info.plist"; sourceTree = "<group>"; };
-		2775294D42CB43A101719926D42DFC81 /* Pods-BayTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTest.debug.xcconfig"; sourceTree = "<group>"; };
 		28A7CA72DBDCB52F12A5268999FBA1EE /* Moya-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-framework-umbrella.h"; sourceTree = "<group>"; };
 		292FB30E0D775BE6BA1C90B54DA00BE9 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		2BAD322813627893DF0771025255B603 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		2E7A1F75AA93BD06C76D779B4B9DCB6F /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
+		2CA1201330335B1880EB2308869D474A /* Pods-Data-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Data-umbrella.h"; sourceTree = "<group>"; };
 		2ECF9D84DC46F3E6F653E86B07F6A90B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		2FFB9485997437049EB132C66320679F /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityPlugin.swift; path = Sources/Moya/Plugins/NetworkActivityPlugin.swift; sourceTree = "<group>"; };
 		3076B2AB289B08CBBB59B00A77261823 /* Alamofire-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Alamofire-library"; path = "libAlamofire-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -295,55 +293,60 @@
 		35F2915666449BB60583485EC9F3409B /* Alamofire-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-framework-Info.plist"; sourceTree = "<group>"; };
 		388C0EFB1A124BB3F4D99AF28AB1A4F3 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Moya/Response.swift; sourceTree = "<group>"; };
 		39F4A96B21991645B8B1812612F47387 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		39FBA9F9522D336C5ED704D4EC70B148 /* Pods-BayTest-BayTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTest-BayTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BBCA70F4A305EC3E07B5F1911D20F36 /* Pods-BayTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D23F9B28555CAAA834DB6941F9ACE47 /* Moya-framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Moya-framework"; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D499237CAC758CAE67F3081818721CE /* Pods-BayTest-BayTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTest-BayTestUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4044F73372C4B9DE5A78EA7C29CC4F59 /* Pods-BayTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayTest-umbrella.h"; sourceTree = "<group>"; };
-		42D20E58EB928F6A23FE2A65FE159CCB /* Pods-CurrentWeather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CurrentWeather-umbrella.h"; sourceTree = "<group>"; };
+		3D4E37E58B82DE3C608CAA054D77B76F /* Pods-BayTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42B7E238302C6F3B0AF046D7AF8B7506 /* Pods-BayTest-BayTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayTest-BayTestUITests-frameworks.sh"; sourceTree = "<group>"; };
 		4384B97D260568603E21BCD9F1C45372 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		46437A91138A9C611E775E162B21165C /* Moya-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Moya-framework-Info.plist"; sourceTree = "<group>"; };
+		4853C12865D84424631379CE44B922E4 /* Pods-Data-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Data-acknowledgements.plist"; sourceTree = "<group>"; };
+		48E7719733B6958177BA22F5146B43C1 /* Pods-Core-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Core-acknowledgements.plist"; sourceTree = "<group>"; };
 		4988B0700E3CC5F3EC44171878CA6C42 /* Alamofire-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-library-prefix.pch"; path = "../Alamofire-library/Alamofire-library-prefix.pch"; sourceTree = "<group>"; };
+		49E5802DBB4EE85B9CDF900B4300059A /* Pods-BayTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTest.debug.xcconfig"; sourceTree = "<group>"; };
 		4C93089AAB26ECAC748E0567144A99B8 /* Moya-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-framework-prefix.pch"; sourceTree = "<group>"; };
-		4CC33FB50A8F5DCE7D226560C415D778 /* Pods-BayTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CCF3BCB99136E6059284843D4FDC0F0 /* Alamofire-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Alamofire-library-dummy.m"; path = "../Alamofire-library/Alamofire-library-dummy.m"; sourceTree = "<group>"; };
+		4CE3223A9B5365D53361D81A5BB066E2 /* Pods-Data.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Data.modulemap"; sourceTree = "<group>"; };
+		4CECED3294E401E6F6355B401144109A /* Pods-Weather */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Weather"; path = "libPods-Weather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E25A4860E41CACE896056952FBE7F83 /* Moya-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-framework-dummy.m"; sourceTree = "<group>"; };
+		4E824C1D7518B31C76AD60C736F8E973 /* Pods-BayTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayTest-dummy.m"; sourceTree = "<group>"; };
 		4F3062F3C8AFABD46D52802B8C1672A5 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
 		50C2D8709EF3C34CE5208D4F2E6AD004 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
+		527E9B6FF25AA25531F28140860C9C22 /* Pods-BayTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		5296A899114AD35114F1DF5C3460F83A /* Pods-Core */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Core"; path = "libPods-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E2C4B02AD342C33006E57A1372ED56 /* AnyPublisher+Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnyPublisher+Response.swift"; path = "Sources/CombineMoya/AnyPublisher+Response.swift"; sourceTree = "<group>"; };
-		5651FC940B347BA748A9CD04F01EBAAC /* Pods-BayTest-BayTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTest-BayTestUITests-Info.plist"; sourceTree = "<group>"; };
 		5BCA589EB5C49011FAD9964A37E323CA /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Moya/Image.swift; sourceTree = "<group>"; };
 		5FCB6FD65EE342C18D8991BB4C58E187 /* URL+Moya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Moya.swift"; path = "Sources/Moya/URL+Moya.swift"; sourceTree = "<group>"; };
-		62BC776BBE841B35E64604DCBEBCAD7C /* Pods-BayTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		658CDB77DF3F63F73CBBB22BF1CCA6F5 /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
 		69E37C0704480B14C7199B9AA057951F /* Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = Sources/Moya/Atomic.swift; sourceTree = "<group>"; };
 		69FB3C3F41A9262FB2C047668D69681A /* MoyaProvider+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Combine.swift"; path = "Sources/CombineMoya/MoyaProvider+Combine.swift"; sourceTree = "<group>"; };
 		69FEDF9BA7AA4F0566F8C6C6D2FDA4EE /* CredentialsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsPlugin.swift; path = Sources/Moya/Plugins/CredentialsPlugin.swift; sourceTree = "<group>"; };
 		6B42712EC08CABC4A4F265C8ED6891A1 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		6BF8676CB148DB3CBA49126964B26CA3 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
-		6F8E14FD80CC1D674C0B043163540768 /* Pods-BayTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E107B340516C73445AA0AE91EABA15F /* Pods-BayTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayTestTests-dummy.m"; sourceTree = "<group>"; };
+		6FECB3D3D7171B72D7646289CB1A9BB3 /* Pods-Data-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Data-dummy.m"; sourceTree = "<group>"; };
 		70375330C8D4D4B7C53A4631DAC6AAEF /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
-		7051B28F9ADC3B3531DF47FBA0A59EB9 /* Pods-Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Core-umbrella.h"; sourceTree = "<group>"; };
+		712240AFDACA737FA482469DA09E2807 /* Pods-BayTest-BayTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayTest-BayTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7177E708D70E1DFA62E9718735E1644D /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		718CC5C2B0265A89C7F3D0F5614BC8FF /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
-		721E8BCCAFC296AFEBA0DFC7E4984BA2 /* Pods-BayTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayTestTests-dummy.m"; sourceTree = "<group>"; };
 		7236BEBBE14EA6C74F94CAAFBA7302F9 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		77CA8DB11E5E0B4876F00E9EFA4635D9 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		78AD7D6604EFF7CB0963F7532F0D51D5 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 		805E17EED52BC8C07CEAD90EC7154557 /* Alamofire-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-framework.release.xcconfig"; sourceTree = "<group>"; };
-		81423B35B1D889ACC6B695A555B1DEBD /* Pods-BayTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayTestTests-umbrella.h"; sourceTree = "<group>"; };
+		80EBFAE1553BFE25820FC095F8D8363E /* Pods-BayTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		824FA2B11D97581DEADB844875B1D9D1 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		83A7DB1E0093BC06A30CC03491BAE9DA /* Moya-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Moya-library.release.xcconfig"; path = "../Moya-library/Moya-library.release.xcconfig"; sourceTree = "<group>"; };
+		84FDE53F759E231BCD6FF78A9C54ACD3 /* Pods-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Core-dummy.m"; sourceTree = "<group>"; };
+		857F42B12E11DDBDED42E9FAEC3E1217 /* Pods-Weather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Weather-acknowledgements.markdown"; sourceTree = "<group>"; };
 		86F60278B8AF0D7C1CB1DDE7F52CC4E2 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
-		876B7E51C7B09CD98064C2A6B6859BA1 /* Pods-CurrentWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrentWeather.debug.xcconfig"; sourceTree = "<group>"; };
-		88FB4B3FCAD99AE63CFBC9B00373FB4A /* Pods-BayTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BayTest.modulemap"; sourceTree = "<group>"; };
-		8B75C9978D8AAD1AB8DFF65F858AE4FE /* Pods-Data.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Data.modulemap"; sourceTree = "<group>"; };
+		887CBCCF6B64DB56DBA561804499DD71 /* Pods-BayTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayTest-umbrella.h"; sourceTree = "<group>"; };
 		8CB4EAE94367520BD5248BCD77CD66C8 /* MoyaProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaProvider.swift; path = Sources/Moya/MoyaProvider.swift; sourceTree = "<group>"; };
 		8DD25EE80756F8F9328F5A39F2A77DB7 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Moya/Endpoint.swift; sourceTree = "<group>"; };
-		8E0ABF3C2A7F61285036DB4F4298661D /* Pods-Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Core.modulemap"; sourceTree = "<group>"; };
+		8F4EF0646EAD4E541AC6BCCB581DA158 /* Pods-BayTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BayTest.modulemap"; sourceTree = "<group>"; };
 		912BCCBED6D9E235B6FEF622E3D5C1D5 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/Moya/MultipartFormData.swift; sourceTree = "<group>"; };
 		933CEEB4A9CC81DBE2C0484DBA50BF4F /* MoyaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaError.swift; path = Sources/Moya/MoyaError.swift; sourceTree = "<group>"; };
-		93979E8A6962AF4279E05C221AA5B9E9 /* Pods-BayTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		94443498DB9CBA74B6A77E97C43129D7 /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Sources/Moya/Moya+Alamofire.swift"; sourceTree = "<group>"; };
 		948F5C64338C6256C699F54E38CBE648 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		9B2FE6499CF1868F8C2475F6426B6646 /* Pods-CurrentWeather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CurrentWeather-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9C386DCB60EE1AE4C0001051DAD0EBFA /* Pods-BayTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayTest-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F4B78DEC8925F9A0788AB0501BEF143 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		A09625D4997281559A9C3DEC958CD112 /* Alamofire-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Alamofire-library.modulemap"; path = "../Alamofire-library/Alamofire-library.modulemap"; sourceTree = "<group>"; };
@@ -351,58 +354,55 @@
 		A3EBD1090E6381EAB7FA501438C7C77C /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		A55E237900531B2E00A522F1D6C6F9DA /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		AB249D381348BFD13A6CCA3FCD53E27C /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
-		AB48541FC4E05E4C8B41ADBA3F40F621 /* Pods-BayTest-BayTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BayTest-BayTestUITests.modulemap"; sourceTree = "<group>"; };
 		ACD4D410C838F7A4B90114DD2A6E7B71 /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
 		AD01C341A62630405B9AA94960CFFEFE /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		AD07E24934D15BC8B69D2140C29F7A9A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		AEE950D38B4E4DEE6CBC4D7D19E5FB9E /* Pods-CurrentWeather */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-CurrentWeather"; path = "libPods-CurrentWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B118ACE9D2C70F7136A53FD193D0FA3D /* Moya-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Moya-library"; path = "libMoya-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B230B2555B2AF3935770508648DDC597 /* Pods-Data-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Data-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2A70E428C03AB19628D1F188C6E18E0 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
-		B2D98425842E0A3244DA10C3E3D0BAE9 /* Pods-BayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		B39DF3CECCFF596B6815FB23A2A9EB67 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		B59107DF9A8A0246E17F2C0A19943AF8 /* Moya-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Moya-library-prefix.pch"; path = "../Moya-library/Moya-library-prefix.pch"; sourceTree = "<group>"; };
-		B5B358242913E7B262C9C1EA47724215 /* Pods-CurrentWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrentWeather.release.xcconfig"; sourceTree = "<group>"; };
 		B60E5469371F32409434DB7D54820393 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
-		B6467F99CD698E5C0ADE2CB259BEE212 /* Pods-BayTest-BayTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTest-BayTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6C1FB427CF23064BC019FC31AB72271 /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
-		B80FF849166051A26D1712B88B562CD4 /* Pods-BayTest-BayTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayTest-BayTestUITests-dummy.m"; sourceTree = "<group>"; };
+		B66D991559AF832F6DB9E2DE7E939FA1 /* Pods-Weather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9882C583574532FB0E936BADB436E2D /* Moya-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Moya-library-dummy.m"; path = "../Moya-library/Moya-library-dummy.m"; sourceTree = "<group>"; };
 		BAFFED2096B107DAD815A23A0E41BCFB /* Cancellable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancellable.swift; path = Sources/Moya/Cancellable.swift; sourceTree = "<group>"; };
-		BC7C42A5AE0F0C76687671F8507B5788 /* Pods-BayTest-BayTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayTest-BayTestUITests-umbrella.h"; sourceTree = "<group>"; };
-		BE90B1FEDA1769E784A00001CDA3079F /* Pods-CurrentWeather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CurrentWeather-dummy.m"; sourceTree = "<group>"; };
+		BDBD744BD07E2C482E0DC3418E37AAD6 /* Pods-BayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF4D354A5974369490775FF56AF91331 /* Pods-Data-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Data-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C223349772594F0907D257D778A500C5 /* RequestTypeWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTypeWrapper.swift; path = Sources/Moya/RequestTypeWrapper.swift; sourceTree = "<group>"; };
 		C8A4C0074A60E968BC6F1C711AD062F2 /* Alamofire-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Alamofire-library.debug.xcconfig"; path = "../Alamofire-library/Alamofire-library.debug.xcconfig"; sourceTree = "<group>"; };
 		CA5E880561B4B722F2183A6E46CC51BD /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkLoggerPlugin.swift; path = Sources/Moya/Plugins/NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
-		CBFE3ED1EAF805ABBB11AA0B1D0D67AD /* Pods-BayTest-BayTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTest-BayTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CCBCF908F83A20CFEE3C90C003F1D630 /* Pods-CurrentWeather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrentWeather-acknowledgements.plist"; sourceTree = "<group>"; };
 		CD4E11B0244757DD2DDB271215A70A6B /* Pods-BayTestTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BayTestTests"; path = Pods_BayTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF4B6876C3E8409FDB31A2DDB3A2A56 /* Pods-CurrentWeather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CurrentWeather.modulemap"; sourceTree = "<group>"; };
-		D1DBBE13A55106804543A2E9AE594D5C /* Pods-BayTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTest.release.xcconfig"; sourceTree = "<group>"; };
+		D4616E9F21DFF892FE472403B34F40FA /* Pods-BayTest-BayTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BayTest-BayTestUITests.modulemap"; sourceTree = "<group>"; };
 		D4C57277E22C71459514A31A18A9BD48 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		D4D7A299558D2C07040796395E7F52B9 /* Pods-BayTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BayTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4E65C54F96C74C9D6AC885EE9F2F9F7 /* TargetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetType.swift; path = Sources/Moya/TargetType.swift; sourceTree = "<group>"; };
 		D622817A3CEB6AFE86AEE1718FD0CB99 /* Alamofire-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Alamofire-framework.modulemap"; sourceTree = "<group>"; };
 		D9045CCCE71477ADA19F1E9CEE897AA1 /* Alamofire-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-framework-prefix.pch"; sourceTree = "<group>"; };
 		DA4BA1073EEC28F0B8FBFCB216780834 /* Moya-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Moya-framework.modulemap"; sourceTree = "<group>"; };
 		DAED0708582CAC1534ADBB9F1F392745 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		DD5137D2189C571B960615AB3D248A7F /* Alamofire-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		DEA67FBDBB7C253A6CC76ED0FC88D6F4 /* Pods-Core-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Core-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFEBD8B0B9F1B3E6B353C5CF09D8AC4A /* Pods-BayTest-BayTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTest-BayTestUITests-Info.plist"; sourceTree = "<group>"; };
 		E13CF7740B5002366684DA41A02139AC /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
-		E31AF25C99111B6E07832D85CDF02E9B /* Pods-BayTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayTest-frameworks.sh"; sourceTree = "<group>"; };
 		E423FA605A997A85A836215C9F81DED8 /* Alamofire-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-framework-umbrella.h"; sourceTree = "<group>"; };
+		E4EFA27567604514D4AECF3D5D04F969 /* Pods-BayTest-BayTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BayTest-BayTestUITests-dummy.m"; sourceTree = "<group>"; };
 		E5658483200753C94F811E105BB1939E /* Pods-BayTest-BayTestUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BayTest-BayTestUITests"; path = Pods_BayTest_BayTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60D7ECE52A8ABFB7D6659CBADCE3650 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		EA2332B431A4311C65171C873025A792 /* Pods-Weather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Weather.modulemap"; sourceTree = "<group>"; };
+		EA49C794C770A4C97B6E83545606A091 /* Pods-BayTest-BayTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BayTest-BayTestUITests-umbrella.h"; sourceTree = "<group>"; };
 		EB2D593990539DDC60780B041DAF375F /* AnyEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = Sources/Moya/AnyEncodable.swift; sourceTree = "<group>"; };
-		EE2B112101504024E48574C808C39E3E /* Pods-Data-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Data-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE59C660C5497F97E6986F2834CD66D1 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
 		EFEFE014055C73D3B019AAC424EB7DC9 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		F045A69330EA0194AA1652B32F10150D /* Pods-Weather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Weather-umbrella.h"; sourceTree = "<group>"; };
 		F06ABED80893B4F5376A350B6DAC866F /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		F1DC30446F7AF7E8443705DC73F9392E /* Pods-Data */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Data"; path = "libPods-Data.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F480C490337E0944911F2EDE9E62DF75 /* Pods-Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Data.release.xcconfig"; sourceTree = "<group>"; };
+		F37EDE35587F8619949851AD286925ED /* Pods-BayTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTestTests-Info.plist"; sourceTree = "<group>"; };
+		F50A161A3215EF24E66833513F362597 /* Pods-BayTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BayTest-Info.plist"; sourceTree = "<group>"; };
 		F563F6CBB8BE8BD858ACB01B6E1B8F3B /* URLRequest+Encoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Encoding.swift"; path = "Sources/Moya/URLRequest+Encoding.swift"; sourceTree = "<group>"; };
-		F6AE968346F37940D6A05D680AA466F5 /* Pods-BayTest-BayTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BayTest-BayTestUITests-frameworks.sh"; sourceTree = "<group>"; };
-		F6D1E248B5A8FBEE30E2430E946AF992 /* Pods-BayTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F63C1FC16866249BB88E08A249AEC25B /* Pods-Weather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Weather-dummy.m"; sourceTree = "<group>"; };
 		F6EFA2CB95B3B5DD4F7440E020FBDD00 /* Moya-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Moya-library.debug.xcconfig"; path = "../Moya-library/Moya-library.debug.xcconfig"; sourceTree = "<group>"; };
 		F76448D9D950FE489A65842AE8E6ED13 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		F8E9887C8EEA96D33DB4076A14B5F784 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
+		FB589B1D1377B36A4B92C0AFD6D650D8 /* Pods-BayTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BayTest.release.xcconfig"; sourceTree = "<group>"; };
 		FBC6350DE29A31686653A68E89D9E86E /* Alamofire-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-library-umbrella.h"; path = "../Alamofire-library/Alamofire-library-umbrella.h"; sourceTree = "<group>"; };
 		FD515BD52FF2FA700775EC268B2B0AE3 /* Alamofire-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Alamofire-library.release.xcconfig"; path = "../Alamofire-library/Alamofire-library.release.xcconfig"; sourceTree = "<group>"; };
 		FE4789F804A17E1B9429C25A3A49D0CB /* MoyaProvider+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Internal.swift"; path = "Sources/Moya/MoyaProvider+Internal.swift"; sourceTree = "<group>"; };
@@ -442,18 +442,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6FAF16B46F1A1B24F0D078208C92A063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77D0CAE93871050E3A7B016C6DF02099 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C81AE661AE7D143953AEC2CE753678C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB0DD19AB53D84BF919529C612011CBC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,19 +498,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0BDDD1201337F1549092DE7AF1A98D69 /* Pods-Core */ = {
+		1F7F254C9B8DF9B0D3342F1D563BEC8B /* Pods-Data */ = {
 			isa = PBXGroup;
 			children = (
-				8E0ABF3C2A7F61285036DB4F4298661D /* Pods-Core.modulemap */,
-				0CF8C03C24D6F63A597C4565CBA7E460 /* Pods-Core-acknowledgements.markdown */,
-				05810904C893E5F79B606866CBF12BF3 /* Pods-Core-acknowledgements.plist */,
-				20A684C68335DBE80E6B6205E8788D8F /* Pods-Core-dummy.m */,
-				7051B28F9ADC3B3531DF47FBA0A59EB9 /* Pods-Core-umbrella.h */,
-				B6C1FB427CF23064BC019FC31AB72271 /* Pods-Core.debug.xcconfig */,
-				2E7A1F75AA93BD06C76D779B4B9DCB6F /* Pods-Core.release.xcconfig */,
+				4CE3223A9B5365D53361D81A5BB066E2 /* Pods-Data.modulemap */,
+				BF4D354A5974369490775FF56AF91331 /* Pods-Data-acknowledgements.markdown */,
+				4853C12865D84424631379CE44B922E4 /* Pods-Data-acknowledgements.plist */,
+				6FECB3D3D7171B72D7646289CB1A9BB3 /* Pods-Data-dummy.m */,
+				2CA1201330335B1880EB2308869D474A /* Pods-Data-umbrella.h */,
+				F8E9887C8EEA96D33DB4076A14B5F784 /* Pods-Data.debug.xcconfig */,
+				0177118429C86085BD0D8EA08410E2D2 /* Pods-Data.release.xcconfig */,
 			);
-			name = "Pods-Core";
-			path = "Target Support Files/Pods-Core";
+			name = "Pods-Data";
+			path = "Target Support Files/Pods-Data";
 			sourceTree = "<group>";
 		};
 		35819D87799836EE551A9A085A9E52AB /* Moya */ = {
@@ -534,32 +534,67 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6502D5591140F25605F575DA28812DAB /* Pods-CurrentWeather */ = {
+		53FB72D36DE9D6D64F15BF3C1CC7AC9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDF4B6876C3E8409FDB31A2DDB3A2A56 /* Pods-CurrentWeather.modulemap */,
-				9B2FE6499CF1868F8C2475F6426B6646 /* Pods-CurrentWeather-acknowledgements.markdown */,
-				CCBCF908F83A20CFEE3C90C003F1D630 /* Pods-CurrentWeather-acknowledgements.plist */,
-				BE90B1FEDA1769E784A00001CDA3079F /* Pods-CurrentWeather-dummy.m */,
-				42D20E58EB928F6A23FE2A65FE159CCB /* Pods-CurrentWeather-umbrella.h */,
-				876B7E51C7B09CD98064C2A6B6859BA1 /* Pods-CurrentWeather.debug.xcconfig */,
-				B5B358242913E7B262C9C1EA47724215 /* Pods-CurrentWeather.release.xcconfig */,
+				343CE98738FF456D1F5E2995AC819CEE /* Alamofire-framework */,
+				3076B2AB289B08CBBB59B00A77261823 /* Alamofire-library */,
+				3D23F9B28555CAAA834DB6941F9ACE47 /* Moya-framework */,
+				B118ACE9D2C70F7136A53FD193D0FA3D /* Moya-library */,
+				07C391578C789A835AE7A5D2BB7E1D41 /* Pods-BayTest */,
+				E5658483200753C94F811E105BB1939E /* Pods-BayTest-BayTestUITests */,
+				CD4E11B0244757DD2DDB271215A70A6B /* Pods-BayTestTests */,
+				5296A899114AD35114F1DF5C3460F83A /* Pods-Core */,
+				F1DC30446F7AF7E8443705DC73F9392E /* Pods-Data */,
+				4CECED3294E401E6F6355B401144109A /* Pods-Weather */,
 			);
-			name = "Pods-CurrentWeather";
-			path = "Target Support Files/Pods-CurrentWeather";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6F23F1969346CA17D9745FE4F3571481 /* Targets Support Files */ = {
+		55E773AA84EAC710DA988D23569C581F /* Pods-BayTest-BayTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EBC777F6835942C310617942157DE243 /* Pods-BayTest */,
-				D84E17710161959F31D717CB6D1C720E /* Pods-BayTest-BayTestUITests */,
-				87247CE7A20EDA17DB13AA3FD9FF6B2D /* Pods-BayTestTests */,
-				0BDDD1201337F1549092DE7AF1A98D69 /* Pods-Core */,
-				6502D5591140F25605F575DA28812DAB /* Pods-CurrentWeather */,
-				9504DBCF1BAA343C7BACCD40CD62D473 /* Pods-Data */,
+				D4616E9F21DFF892FE472403B34F40FA /* Pods-BayTest-BayTestUITests.modulemap */,
+				712240AFDACA737FA482469DA09E2807 /* Pods-BayTest-BayTestUITests-acknowledgements.markdown */,
+				18D8865E6ADA9D52CD71D980E5359B5D /* Pods-BayTest-BayTestUITests-acknowledgements.plist */,
+				E4EFA27567604514D4AECF3D5D04F969 /* Pods-BayTest-BayTestUITests-dummy.m */,
+				42B7E238302C6F3B0AF046D7AF8B7506 /* Pods-BayTest-BayTestUITests-frameworks.sh */,
+				DFEBD8B0B9F1B3E6B353C5CF09D8AC4A /* Pods-BayTest-BayTestUITests-Info.plist */,
+				EA49C794C770A4C97B6E83545606A091 /* Pods-BayTest-BayTestUITests-umbrella.h */,
+				16BE31806EA1373B1E6AFFAE7A599B1D /* Pods-BayTest-BayTestUITests.debug.xcconfig */,
+				39FBA9F9522D336C5ED704D4EC70B148 /* Pods-BayTest-BayTestUITests.release.xcconfig */,
+			);
+			name = "Pods-BayTest-BayTestUITests";
+			path = "Target Support Files/Pods-BayTest-BayTestUITests";
+			sourceTree = "<group>";
+		};
+		582DF3BA9922543B1EB22B3603359465 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A27631752BF5D7EC067DCF587C47645F /* Pods-BayTest */,
+				55E773AA84EAC710DA988D23569C581F /* Pods-BayTest-BayTestUITests */,
+				5A564A57C7CBF87D420A57AC72493C74 /* Pods-BayTestTests */,
+				834252BE4E32830141A9DDAF72BCFD59 /* Pods-Core */,
+				1F7F254C9B8DF9B0D3342F1D563BEC8B /* Pods-Data */,
+				7CD819ABF298E2C308C40FE02C1B9CE9 /* Pods-Weather */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A564A57C7CBF87D420A57AC72493C74 /* Pods-BayTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCD1ED535D34E855E6495C056E8316 /* Pods-BayTestTests.modulemap */,
+				3BBCA70F4A305EC3E07B5F1911D20F36 /* Pods-BayTestTests-acknowledgements.markdown */,
+				3D4E37E58B82DE3C608CAA054D77B76F /* Pods-BayTestTests-acknowledgements.plist */,
+				6E107B340516C73445AA0AE91EABA15F /* Pods-BayTestTests-dummy.m */,
+				F37EDE35587F8619949851AD286925ED /* Pods-BayTestTests-Info.plist */,
+				1F2632CD2FCAB6097A046E7284F6A8DF /* Pods-BayTestTests-umbrella.h */,
+				80EBFAE1553BFE25820FC095F8D8363E /* Pods-BayTestTests.debug.xcconfig */,
+				BDBD744BD07E2C482E0DC3418E37AAD6 /* Pods-BayTestTests.release.xcconfig */,
+			);
+			name = "Pods-BayTestTests";
+			path = "Target Support Files/Pods-BayTestTests";
 			sourceTree = "<group>";
 		};
 		76F11E91611A137B43FD9136BE13AE02 /* Alamofire */ = {
@@ -607,35 +642,51 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		87247CE7A20EDA17DB13AA3FD9FF6B2D /* Pods-BayTestTests */ = {
+		7CD819ABF298E2C308C40FE02C1B9CE9 /* Pods-Weather */ = {
 			isa = PBXGroup;
 			children = (
-				1B488B5066B5C00D7118C4F3F2814D97 /* Pods-BayTestTests.modulemap */,
-				62BC776BBE841B35E64604DCBEBCAD7C /* Pods-BayTestTests-acknowledgements.markdown */,
-				93979E8A6962AF4279E05C221AA5B9E9 /* Pods-BayTestTests-acknowledgements.plist */,
-				721E8BCCAFC296AFEBA0DFC7E4984BA2 /* Pods-BayTestTests-dummy.m */,
-				11AA91FA6E4D66E808DF9C7C43E9A3AF /* Pods-BayTestTests-Info.plist */,
-				81423B35B1D889ACC6B695A555B1DEBD /* Pods-BayTestTests-umbrella.h */,
-				F6D1E248B5A8FBEE30E2430E946AF992 /* Pods-BayTestTests.debug.xcconfig */,
-				B2D98425842E0A3244DA10C3E3D0BAE9 /* Pods-BayTestTests.release.xcconfig */,
+				EA2332B431A4311C65171C873025A792 /* Pods-Weather.modulemap */,
+				857F42B12E11DDBDED42E9FAEC3E1217 /* Pods-Weather-acknowledgements.markdown */,
+				B66D991559AF832F6DB9E2DE7E939FA1 /* Pods-Weather-acknowledgements.plist */,
+				F63C1FC16866249BB88E08A249AEC25B /* Pods-Weather-dummy.m */,
+				F045A69330EA0194AA1652B32F10150D /* Pods-Weather-umbrella.h */,
+				658CDB77DF3F63F73CBBB22BF1CCA6F5 /* Pods-Weather.debug.xcconfig */,
+				0A0875F85F20C16D711B335454C26CFF /* Pods-Weather.release.xcconfig */,
 			);
-			name = "Pods-BayTestTests";
-			path = "Target Support Files/Pods-BayTestTests";
+			name = "Pods-Weather";
+			path = "Target Support Files/Pods-Weather";
 			sourceTree = "<group>";
 		};
-		9504DBCF1BAA343C7BACCD40CD62D473 /* Pods-Data */ = {
+		834252BE4E32830141A9DDAF72BCFD59 /* Pods-Core */ = {
 			isa = PBXGroup;
 			children = (
-				8B75C9978D8AAD1AB8DFF65F858AE4FE /* Pods-Data.modulemap */,
-				B230B2555B2AF3935770508648DDC597 /* Pods-Data-acknowledgements.markdown */,
-				EE2B112101504024E48574C808C39E3E /* Pods-Data-acknowledgements.plist */,
-				095CA7C07A65E840FB63F4981CEF1A7F /* Pods-Data-dummy.m */,
-				0A85FDACCEEEB5B1DE3A10562B451994 /* Pods-Data-umbrella.h */,
-				1D6C4638F5CBF3337631634A7C684753 /* Pods-Data.debug.xcconfig */,
-				F480C490337E0944911F2EDE9E62DF75 /* Pods-Data.release.xcconfig */,
+				140C81BACB80ABDE0F22CEE25431AB73 /* Pods-Core.modulemap */,
+				DEA67FBDBB7C253A6CC76ED0FC88D6F4 /* Pods-Core-acknowledgements.markdown */,
+				48E7719733B6958177BA22F5146B43C1 /* Pods-Core-acknowledgements.plist */,
+				84FDE53F759E231BCD6FF78A9C54ACD3 /* Pods-Core-dummy.m */,
+				178E6B70B50ABE352D45DA4473F25268 /* Pods-Core-umbrella.h */,
+				7177E708D70E1DFA62E9718735E1644D /* Pods-Core.debug.xcconfig */,
+				78AD7D6604EFF7CB0963F7532F0D51D5 /* Pods-Core.release.xcconfig */,
 			);
-			name = "Pods-Data";
-			path = "Target Support Files/Pods-Data";
+			name = "Pods-Core";
+			path = "Target Support Files/Pods-Core";
+			sourceTree = "<group>";
+		};
+		A27631752BF5D7EC067DCF587C47645F /* Pods-BayTest */ = {
+			isa = PBXGroup;
+			children = (
+				8F4EF0646EAD4E541AC6BCCB581DA158 /* Pods-BayTest.modulemap */,
+				D4D7A299558D2C07040796395E7F52B9 /* Pods-BayTest-acknowledgements.markdown */,
+				527E9B6FF25AA25531F28140860C9C22 /* Pods-BayTest-acknowledgements.plist */,
+				4E824C1D7518B31C76AD60C736F8E973 /* Pods-BayTest-dummy.m */,
+				2418F85B07D37855B858D6B932D1875D /* Pods-BayTest-frameworks.sh */,
+				F50A161A3215EF24E66833513F362597 /* Pods-BayTest-Info.plist */,
+				887CBCCF6B64DB56DBA561804499DD71 /* Pods-BayTest-umbrella.h */,
+				49E5802DBB4EE85B9CDF900B4300059A /* Pods-BayTest.debug.xcconfig */,
+				FB589B1D1377B36A4B92C0AFD6D650D8 /* Pods-BayTest.release.xcconfig */,
+			);
+			name = "Pods-BayTest";
+			path = "Target Support Files/Pods-BayTest";
 			sourceTree = "<group>";
 		};
 		A569F35FF3DF2E04A5FB587935210195 /* Support Files */ = {
@@ -675,43 +726,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				DD6878BD76BB4863179AE86727E0FFE4 /* Pods */,
-				D128427CF4FDE274E14E77551E8A27E9 /* Products */,
-				6F23F1969346CA17D9745FE4F3571481 /* Targets Support Files */,
+				53FB72D36DE9D6D64F15BF3C1CC7AC9B /* Products */,
+				582DF3BA9922543B1EB22B3603359465 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D128427CF4FDE274E14E77551E8A27E9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				343CE98738FF456D1F5E2995AC819CEE /* Alamofire-framework */,
-				3076B2AB289B08CBBB59B00A77261823 /* Alamofire-library */,
-				3D23F9B28555CAAA834DB6941F9ACE47 /* Moya-framework */,
-				B118ACE9D2C70F7136A53FD193D0FA3D /* Moya-library */,
-				07C391578C789A835AE7A5D2BB7E1D41 /* Pods-BayTest */,
-				E5658483200753C94F811E105BB1939E /* Pods-BayTest-BayTestUITests */,
-				CD4E11B0244757DD2DDB271215A70A6B /* Pods-BayTestTests */,
-				5296A899114AD35114F1DF5C3460F83A /* Pods-Core */,
-				AEE950D38B4E4DEE6CBC4D7D19E5FB9E /* Pods-CurrentWeather */,
-				F1DC30446F7AF7E8443705DC73F9392E /* Pods-Data */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D84E17710161959F31D717CB6D1C720E /* Pods-BayTest-BayTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AB48541FC4E05E4C8B41ADBA3F40F621 /* Pods-BayTest-BayTestUITests.modulemap */,
-				00F4FC94548DFB8DC267F591319640CF /* Pods-BayTest-BayTestUITests-acknowledgements.markdown */,
-				CBFE3ED1EAF805ABBB11AA0B1D0D67AD /* Pods-BayTest-BayTestUITests-acknowledgements.plist */,
-				B80FF849166051A26D1712B88B562CD4 /* Pods-BayTest-BayTestUITests-dummy.m */,
-				F6AE968346F37940D6A05D680AA466F5 /* Pods-BayTest-BayTestUITests-frameworks.sh */,
-				5651FC940B347BA748A9CD04F01EBAAC /* Pods-BayTest-BayTestUITests-Info.plist */,
-				BC7C42A5AE0F0C76687671F8507B5788 /* Pods-BayTest-BayTestUITests-umbrella.h */,
-				B6467F99CD698E5C0ADE2CB259BEE212 /* Pods-BayTest-BayTestUITests.debug.xcconfig */,
-				3D499237CAC758CAE67F3081818721CE /* Pods-BayTest-BayTestUITests.release.xcconfig */,
-			);
-			name = "Pods-BayTest-BayTestUITests";
-			path = "Target Support Files/Pods-BayTest-BayTestUITests";
 			sourceTree = "<group>";
 		};
 		DD6878BD76BB4863179AE86727E0FFE4 /* Pods */ = {
@@ -721,23 +738,6 @@
 				35819D87799836EE551A9A085A9E52AB /* Moya */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		EBC777F6835942C310617942157DE243 /* Pods-BayTest */ = {
-			isa = PBXGroup;
-			children = (
-				88FB4B3FCAD99AE63CFBC9B00373FB4A /* Pods-BayTest.modulemap */,
-				6F8E14FD80CC1D674C0B043163540768 /* Pods-BayTest-acknowledgements.markdown */,
-				4CC33FB50A8F5DCE7D226560C415D778 /* Pods-BayTest-acknowledgements.plist */,
-				9C386DCB60EE1AE4C0001051DAD0EBFA /* Pods-BayTest-dummy.m */,
-				E31AF25C99111B6E07832D85CDF02E9B /* Pods-BayTest-frameworks.sh */,
-				26B1C57690A8B3585120CFC79E3E04F9 /* Pods-BayTest-Info.plist */,
-				4044F73372C4B9DE5A78EA7C29CC4F59 /* Pods-BayTest-umbrella.h */,
-				2775294D42CB43A101719926D42DFC81 /* Pods-BayTest.debug.xcconfig */,
-				D1DBBE13A55106804543A2E9AE594D5C /* Pods-BayTest.release.xcconfig */,
-			);
-			name = "Pods-BayTest";
-			path = "Target Support Files/Pods-BayTest";
 			sourceTree = "<group>";
 		};
 		ED6C32896BD5E9564D7F0DBF1A5E275B /* Support Files */ = {
@@ -843,14 +843,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C199F8C999405F5388A53D84ACDE6AEE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE3608AFBE2D6C41283AC7CDF5918909 /* Pods-CurrentWeather-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C44A5A8D6BF91A73DB7CE80FD1D06882 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -875,9 +867,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE61D8C0601E6849FF4EBD580D7B9AA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BC841D0C19013422708E9DF00D5946 /* Pods-Weather-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		10B99686003B4D8467D8513296D055FE /* Pods-Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1969FF22474B8239377BEF8D46B4DCBD /* Build configuration list for PBXNativeTarget "Pods-Weather" */;
+			buildPhases = (
+				DE61D8C0601E6849FF4EBD580D7B9AA2 /* Headers */,
+				639F8C51C42719DFFEAEAC48B1840CEF /* Sources */,
+				6FAF16B46F1A1B24F0D078208C92A063 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F753646F5CB8FFE9EA39E516D22349F2 /* PBXTargetDependency */,
+				2F255452EAE7B58C95F3BECE2659BD5F /* PBXTargetDependency */,
+			);
+			name = "Pods-Weather";
+			productName = "Pods-Weather";
+			productReference = 4CECED3294E401E6F6355B401144109A /* Pods-Weather */;
+			productType = "com.apple.product-type.library.static";
+		};
 		1B8E6FD4FEB690C77A1FAAE782941977 /* Pods-BayTest-BayTestUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F45F6C6FAD4AA691C9AE110F2F98AF6B /* Build configuration list for PBXNativeTarget "Pods-BayTest-BayTestUITests" */;
@@ -897,25 +916,6 @@
 			productName = Pods_BayTest_BayTestUITests;
 			productReference = E5658483200753C94F811E105BB1939E /* Pods-BayTest-BayTestUITests */;
 			productType = "com.apple.product-type.framework";
-		};
-		243CCEEF604966544D5AF316EA939541 /* Pods-CurrentWeather */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE94D3D868C2B2B6499F74AA55C7ACC4 /* Build configuration list for PBXNativeTarget "Pods-CurrentWeather" */;
-			buildPhases = (
-				C199F8C999405F5388A53D84ACDE6AEE /* Headers */,
-				19D2EFE12ED37F7C0070B0706132E40C /* Sources */,
-				BB0DD19AB53D84BF919529C612011CBC /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				36B0E834B283C4AB1666BC1E8760782B /* PBXTargetDependency */,
-				4772E9AA61881C844F635AB8C3D9C04A /* PBXTargetDependency */,
-			);
-			name = "Pods-CurrentWeather";
-			productName = "Pods-CurrentWeather";
-			productReference = AEE950D38B4E4DEE6CBC4D7D19E5FB9E /* Pods-CurrentWeather */;
-			productType = "com.apple.product-type.library.static";
 		};
 		3949679AB5CF3F2C77C15A0E67E8AF64 /* Alamofire-framework */ = {
 			isa = PBXNativeTarget;
@@ -1086,7 +1086,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D128427CF4FDE274E14E77551E8A27E9 /* Products */;
+			productRefGroup = 53FB72D36DE9D6D64F15BF3C1CC7AC9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1098,8 +1098,8 @@
 				1B8E6FD4FEB690C77A1FAAE782941977 /* Pods-BayTest-BayTestUITests */,
 				AD27FEE432CF99673F38532C5D833D88 /* Pods-BayTestTests */,
 				A8D5EF097DB70BA987754AF4963AE0F7 /* Pods-Core */,
-				243CCEEF604966544D5AF316EA939541 /* Pods-CurrentWeather */,
 				80ABF4B3D35BE99A03D65C516245B047 /* Pods-Data */,
+				10B99686003B4D8467D8513296D055FE /* Pods-Weather */,
 			);
 		};
 /* End PBXProject section */
@@ -1237,14 +1237,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19D2EFE12ED37F7C0070B0706132E40C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55C0B8D417027986DCA8664347255B13 /* Pods-CurrentWeather-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		51539CFE92A08598AE8EFC631CAC84F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1293,6 +1285,14 @@
 				0CE50657E88DE7D36AF92D161F4FAC01 /* URL+Moya.swift in Sources */,
 				575A22A5117D44920C4A61A695FC921E /* URLRequest+Encoding.swift in Sources */,
 				66BFCCEE5542633DAA8D844BDE2681D5 /* ValidationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639F8C51C42719DFFEAEAC48B1840CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F73C91BD3CD79B9C90C8188076E4754 /* Pods-Weather-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1421,17 +1421,11 @@
 			target = BFF555B789346B449FA83779AA4662BA /* Pods-BayTest */;
 			targetProxy = ECB591A358DFE97B6BDF51724A75277A /* PBXContainerItemProxy */;
 		};
-		36B0E834B283C4AB1666BC1E8760782B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire-library";
-			target = 47497BE8AA365DA8AAEFDEEEC086ABF6 /* Alamofire-library */;
-			targetProxy = B4D7F688FD9E1AD13069DCF540555493 /* PBXContainerItemProxy */;
-		};
-		4772E9AA61881C844F635AB8C3D9C04A /* PBXTargetDependency */ = {
+		2F255452EAE7B58C95F3BECE2659BD5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Moya-library";
 			target = 712770ADC842C7E2558A501BB3ADDBDA /* Moya-library */;
-			targetProxy = 4961FC388A8A9E2BFE704F1ECCBF6187 /* PBXContainerItemProxy */;
+			targetProxy = 4E128FA9585EAEC3FC9CD977882CBF6B /* PBXContainerItemProxy */;
 		};
 		6EF642A278BC87904E829815EFD0245F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1481,6 +1475,12 @@
 			target = 47497BE8AA365DA8AAEFDEEEC086ABF6 /* Alamofire-library */;
 			targetProxy = BF54F0AC5FC66B83E1299B12C6EDF500 /* PBXContainerItemProxy */;
 		};
+		F753646F5CB8FFE9EA39E516D22349F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-library";
+			target = 47497BE8AA365DA8AAEFDEEEC086ABF6 /* Alamofire-library */;
+			targetProxy = CA85A124D50EF5C87EB93A95EB2E2118 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -1521,7 +1521,7 @@
 		};
 		0CFE4893B12E0C3A163BD682B37C44A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7A1F75AA93BD06C76D779B4B9DCB6F /* Pods-Core.release.xcconfig */;
+			baseConfigurationReference = 78AD7D6604EFF7CB0963F7532F0D51D5 /* Pods-Core.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1544,7 +1544,7 @@
 		};
 		0DA252CB29F4D8DEC1B2DA062A5869A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6C1FB427CF23064BC019FC31AB72271 /* Pods-Core.debug.xcconfig */;
+			baseConfigurationReference = 7177E708D70E1DFA62E9718735E1644D /* Pods-Core.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1590,9 +1590,9 @@
 			};
 			name = Release;
 		};
-		16DB30226F10899A7F5C3871514BC570 /* Debug */ = {
+		199111D5EEA19D0AA3DC0ED055465D2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 876B7E51C7B09CD98064C2A6B6859BA1 /* Pods-CurrentWeather.debug.xcconfig */;
+			baseConfigurationReference = 658CDB77DF3F63F73CBBB22BF1CCA6F5 /* Pods-Weather.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1601,7 +1601,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CurrentWeather/Pods-CurrentWeather.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Weather/Pods-Weather.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1701,7 +1701,7 @@
 		};
 		4AD164EBDEFFF23207DB27C5C1BC45F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2775294D42CB43A101719926D42DFC81 /* Pods-BayTest.debug.xcconfig */;
+			baseConfigurationReference = 49E5802DBB4EE85B9CDF900B4300059A /* Pods-BayTest.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1774,7 +1774,7 @@
 		};
 		6006F6CBCEC676EE6FB9CF918C9E0F2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2D98425842E0A3244DA10C3E3D0BAE9 /* Pods-BayTestTests.release.xcconfig */;
+			baseConfigurationReference = BDBD744BD07E2C482E0DC3418E37AAD6 /* Pods-BayTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1812,7 +1812,7 @@
 		};
 		61C05A4E33E92F0DA9350EEB7D7496FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F480C490337E0944911F2EDE9E62DF75 /* Pods-Data.release.xcconfig */;
+			baseConfigurationReference = 0177118429C86085BD0D8EA08410E2D2 /* Pods-Data.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1835,7 +1835,7 @@
 		};
 		83400F3AA89D5D19FCECB0AFF64DBF31 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6D1E248B5A8FBEE30E2430E946AF992 /* Pods-BayTestTests.debug.xcconfig */;
+			baseConfigurationReference = 80EBFAE1553BFE25820FC095F8D8363E /* Pods-BayTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2060,7 +2060,7 @@
 		};
 		9C850304CB0B4301B110C430ADF783A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D499237CAC758CAE67F3081818721CE /* Pods-BayTest-BayTestUITests.release.xcconfig */;
+			baseConfigurationReference = 39FBA9F9522D336C5ED704D4EC70B148 /* Pods-BayTest-BayTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2098,7 +2098,7 @@
 		};
 		A8B4021D0114873534CE6616919AD4DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1DBBE13A55106804543A2E9AE594D5C /* Pods-BayTest.release.xcconfig */;
+			baseConfigurationReference = FB589B1D1377B36A4B92C0AFD6D650D8 /* Pods-BayTest.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2136,7 +2136,7 @@
 		};
 		A9A3E15C5A8C4DD2D3F7B87A239437B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D6C4638F5CBF3337631634A7C684753 /* Pods-Data.debug.xcconfig */;
+			baseConfigurationReference = F8E9887C8EEA96D33DB4076A14B5F784 /* Pods-Data.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2156,9 +2156,9 @@
 			};
 			name = Debug;
 		};
-		ACAFA02A35AC926A33D12E73B598822A /* Release */ = {
+		F3DB3299A8D2CE8773C01DCBEB2BBAEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5B358242913E7B262C9C1EA47724215 /* Pods-CurrentWeather.release.xcconfig */;
+			baseConfigurationReference = 0A0875F85F20C16D711B335454C26CFF /* Pods-Weather.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2167,7 +2167,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CurrentWeather/Pods-CurrentWeather.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Weather/Pods-Weather.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2181,7 +2181,7 @@
 		};
 		F5DB880E574513E58D22277FF316880C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6467F99CD698E5C0ADE2CB259BEE212 /* Pods-BayTest-BayTestUITests.debug.xcconfig */;
+			baseConfigurationReference = 16BE31806EA1373B1E6AFFAE7A599B1D /* Pods-BayTest-BayTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2219,6 +2219,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1969FF22474B8239377BEF8D46B4DCBD /* Build configuration list for PBXNativeTarget "Pods-Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199111D5EEA19D0AA3DC0ED055465D2B /* Debug */,
+				F3DB3299A8D2CE8773C01DCBEB2BBAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		390D4252D596CC9D5BCB26019E2178D6 /* Build configuration list for PBXNativeTarget "Moya-framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2260,15 +2269,6 @@
 			buildConfigurations = (
 				206208F573FAD885DE7FBDF1D446BF7C /* Debug */,
 				42632D40811A3AB4B7D09E705589C0C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE94D3D868C2B2B6499F74AA55C7ACC4 /* Build configuration list for PBXNativeTarget "Pods-CurrentWeather" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				16DB30226F10899A7F5C3871514BC570 /* Debug */,
-				ACAFA02A35AC926A33D12E73B598822A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
