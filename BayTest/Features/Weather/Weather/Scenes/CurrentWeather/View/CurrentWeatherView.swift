@@ -11,7 +11,7 @@ import Kingfisher
 public struct CurrentWeatherView: View {
     @ObservedObject var viewModel: CurrentWeatherViewModel
     
-    public init(viewModel: CurrentWeatherViewModel = CurrentWeatherViewModel()) {
+    public init(viewModel: CurrentWeatherViewModel) {
         self.viewModel = viewModel
     }
     
@@ -22,12 +22,18 @@ public struct CurrentWeatherView: View {
                 
                 VStack(alignment: .center, spacing: 10) {
                     Spacer()
+                        .frame(height: 30)
                     TextField("City", text: self.$viewModel.cityName) {
-                        self.viewModel.getWeatherByCity()
+                        self.viewModel.saveWeatherSetting()
                     }
                     .multilineTextAlignment(.center)
                     .textFieldStyle(.roundedBorder)
                     .frame(width: 100, height: 30, alignment: .center)
+                    if let message: String = self.viewModel.message {
+                        Text(message)
+                            .font(.caption)
+                            .foregroundColor(.red)
+                    }
                     Spacer()
                         .frame(height: 30)
                     HStack {
@@ -81,6 +87,15 @@ public struct CurrentWeatherView: View {
                     .clipShape(Capsule())
                     
                     Spacer()
+                }
+            }
+            .navigationBarTitle("Weather")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink("Forecast", destination: {
+                        ForecastWeatherView(viewModel: ForecastWeatherViewModel())
+                    })
+                    .foregroundColor(.blue)
                 }
             }
         }

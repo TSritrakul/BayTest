@@ -8,10 +8,7 @@
       location = "group:Features"
       name = "Features">
       <FileRef
-         location = "group:ForecastWeather/ForecastWeather.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:CurrentWeather/CurrentWeather.xcodeproj">
+         location = "group:Weather/Weather.xcodeproj">
       </FileRef>
    </Group>
    <Group

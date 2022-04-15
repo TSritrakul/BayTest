@@ -11,16 +11,20 @@ import Combine
 
 public class ForecastWeatherViewModel: ObservableObject {
     public init() {
-        self.getWeatherForecastByCity()
+        self.units = WeatherManager.shared.weatherSetting.value.weatherUnits == .imperial ? .imperial : .metric
+        self.cityName = WeatherManager.shared.weatherSetting.value.lastCity ?? ""
+        self.getWeatherForecastByCity(city: self.cityName, unit: self.units)
     }
     
     @Published var list: WeatherForecastByCityModel? = []
+    @Published var units: GetWeatherForecastByCityRequest.WeatherUnits = .metric
+    @Published var cityName: String = ""
     
     private let getWeatherForecastByCityUseCase: GetWeatherForecastByCityUseCase = GetWeatherForecastByCityUseCaseImpl()
     private var anyCancellable: Set<AnyCancellable> = Set<AnyCancellable>()
     
-    func getWeatherForecastByCity() {
-        self.getWeatherForecastByCityUseCase.execute(city: "London", unit: .metric)
+    func getWeatherForecastByCity(city: String, unit: GetWeatherForecastByCityRequest.WeatherUnits) {
+        self.getWeatherForecastByCityUseCase.execute(city: city, unit: unit)
             .sink { error in
                 
             } receiveValue: { [weak self] response in
