@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3ECB5F28068F100070FA90 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3ECB5E28068F100070FA90 /* Data.framework */; };
+		0E48F5342809548800674683 /* Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E48F5332809548800674683 /* Weather.framework */; };
 		0EC3B73228067D02005A6A3E /* BayTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3B73128067D02005A6A3E /* BayTestApp.swift */; };
 		0EC3B73428067D02005A6A3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3B73328067D02005A6A3E /* ContentView.swift */; };
 		0EC3B73628067D07005A6A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC3B73528067D07005A6A3E /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		0EC3B74328067D08005A6A3E /* BayTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3B74228067D08005A6A3E /* BayTestTests.swift */; };
 		0EC3B74D28067D08005A6A3E /* BayTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3B74C28067D08005A6A3E /* BayTestUITests.swift */; };
 		0EC3B74F28067D08005A6A3E /* BayTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3B74E28067D08005A6A3E /* BayTestUITestsLaunchTests.swift */; };
+		0EC3B78028068232005A6A3E /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC3B77F28068232005A6A3E /* Core.framework */; };
 		64BE26C2BC403390EA5FEE98 /* Pods_BayTest_BayTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E123AA873F2F58C87FA4C76 /* Pods_BayTest_BayTestUITests.framework */; };
 		848B6C1CADEAB90008CDC7CD /* Pods_BayTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348B55CC49AF7BD04EC4BDD0 /* Pods_BayTest.framework */; };
 		E0953960BF292ADBB68098D6 /* Pods_BayTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C58E41785604CA723E451B /* Pods_BayTestTests.framework */; };
@@ -38,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		0A5767C3F5DBE206CB6D9E4D /* Pods-BayTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayTest.release.xcconfig"; path = "Target Support Files/Pods-BayTest/Pods-BayTest.release.xcconfig"; sourceTree = "<group>"; };
+		0E3ECB5728068F040070FA90 /* PreviousWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PreviousWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3ECB5B28068F0A0070FA90 /* CurrentWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CurrentWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3ECB5E28068F100070FA90 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E48F52528080D4B00674683 /* ForecastWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ForecastWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E48F5332809548800674683 /* Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC3B72E28067D02005A6A3E /* BayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC3B73128067D02005A6A3E /* BayTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayTestApp.swift; sourceTree = "<group>"; };
 		0EC3B73328067D02005A6A3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +56,7 @@
 		0EC3B74828067D08005A6A3E /* BayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC3B74C28067D08005A6A3E /* BayTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayTestUITests.swift; sourceTree = "<group>"; };
 		0EC3B74E28067D08005A6A3E /* BayTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EC3B77F28068232005A6A3E /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CA1F55421CCDAAA6DC64A4 /* Pods-BayTest-BayTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayTest-BayTestUITests.release.xcconfig"; path = "Target Support Files/Pods-BayTest-BayTestUITests/Pods-BayTest-BayTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1A0304E148E4F4CBDB833AD2 /* Pods-BayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BayTestTests.release.xcconfig"; path = "Target Support Files/Pods-BayTestTests/Pods-BayTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		1E123AA873F2F58C87FA4C76 /* Pods_BayTest_BayTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BayTest_BayTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +73,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				848B6C1CADEAB90008CDC7CD /* Pods_BayTest.framework in Frameworks */,
+				0E48F5342809548800674683 /* Weather.framework in Frameworks */,
+				0EC3B78028068232005A6A3E /* Core.framework in Frameworks */,
+				0E3ECB5F28068F100070FA90 /* Data.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +159,12 @@
 		79771D3112768E1DC6267AAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E48F5332809548800674683 /* Weather.framework */,
+				0E48F52528080D4B00674683 /* ForecastWeather.framework */,
+				0E3ECB5E28068F100070FA90 /* Data.framework */,
+				0E3ECB5B28068F0A0070FA90 /* CurrentWeather.framework */,
+				0E3ECB5728068F040070FA90 /* PreviousWeather.framework */,
+				0EC3B77F28068232005A6A3E /* Core.framework */,
 				348B55CC49AF7BD04EC4BDD0 /* Pods_BayTest.framework */,
 				1E123AA873F2F58C87FA4C76 /* Pods_BayTest_BayTestUITests.framework */,
 				F2C58E41785604CA723E451B /* Pods_BayTestTests.framework */,
@@ -164,7 +182,6 @@
 				98AF1F6472844464D6DF8B8E /* Pods-BayTestTests.debug.xcconfig */,
 				1A0304E148E4F4CBDB833AD2 /* Pods-BayTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +196,7 @@
 				0EC3B72A28067D02005A6A3E /* Sources */,
 				0EC3B72B28067D02005A6A3E /* Frameworks */,
 				0EC3B72C28067D02005A6A3E /* Resources */,
+				C71F3C15CFDEAF42A7133AFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +234,7 @@
 				0EC3B74428067D08005A6A3E /* Sources */,
 				0EC3B74528067D08005A6A3E /* Frameworks */,
 				0EC3B74628067D08005A6A3E /* Resources */,
+				DDDAEF6E641A63054FDC69A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,6 +380,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71F3C15CFDEAF42A7133AFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BayTest/Pods-BayTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BayTest/Pods-BayTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BayTest/Pods-BayTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDDAEF6E641A63054FDC69A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BayTest-BayTestUITests/Pods-BayTest-BayTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BayTest-BayTestUITests/Pods-BayTest-BayTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BayTest-BayTestUITests/Pods-BayTest-BayTestUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
